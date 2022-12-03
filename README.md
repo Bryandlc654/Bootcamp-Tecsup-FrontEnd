@@ -14,7 +14,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/Bootcamp-Tecsup-FrontEnd">
+  <a href="https://github.com/Bryandlc654/Bootcamp-Tecsup-FrontEnd/">
     <img src="https://www.svgrepo.com/show/353884/html-5.svg" alt="Logo" width="80" height="80">
     <img src="https://www.svgrepo.com/show/373535/css.svg" alt="Logo" width="80" height="80">
     <img src="https://www.svgrepo.com/show/373705/js-official.svg" alt="Logo" width="80" height="80">
@@ -29,7 +29,7 @@
   <p align="center">
     Respositorio de Tareas del Bootcamp Desarrollo Web Front - End, con Codigo Tecsup 2022
     <br />
-    <a href="https://github.com/github_username/Bootcamp-Tecsup-FrontEnd"><strong>Explorar Repositorio »</strong></a>
+    <a href="https://github.com/Bryandlc654/Bootcamp-Tecsup-FrontEnd/"><strong>Explorar Repositorio »</strong></a>
     <br />
     <br />
     <a href="https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/index.html">Ver Demo</a>
