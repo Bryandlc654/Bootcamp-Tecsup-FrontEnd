@@ -17,11 +17,12 @@
   <div>
     <img src="https://www.svgrepo.com/show/353884/html-5.svg" alt="Logo" width="80" height="80">
     <img src="https://www.svgrepo.com/show/373535/css.svg" alt="Logo" width="80" height="80">
+    <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="Logo" width="80" height="80">
+    <img src="https://www.svgrepo.com/show/374061/sass.svg" alt="Logo" width="80" height="80">
     <img src="https://www.svgrepo.com/show/373705/js-official.svg" alt="Logo" width="80" height="80">
-    <img src="https://www.svgrepo.com/show/354259/react.svg" alt="Logo" width="80" height="80">
-     <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="Logo" width="80" height="80">
-     <img src="https://www.svgrepo.com/show/374061/sass.svg" alt="Logo" width="80" height="80">
      <img src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="Logo" width="80" height="80">
+    <img src="https://www.svgrepo.com/show/354259/react.svg" alt="Logo" width="80" height="80">
+    <img src="https://www.svgrepo.com/show/303557/redux-logo.svg" alt="Logo" width="80" height="80">
   </div>
 
 
