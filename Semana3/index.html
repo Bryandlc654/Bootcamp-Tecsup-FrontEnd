@@ -3,39 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Bryan De La Cruz</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="body">
-    <header>
-      <nav>
-        <a href="#hero">
-          <img
-            src="./assets/img/Bryan.png"
-            alt="Logo Bryan De La Cruz"
-            width="40"
-          />
-        </a>
-        <ul>
-          <li>
-            <a href="#hero">Perfil</a>
-          </li>
-          <li>
-            <a href="#experiences">Experiencia</a>
-          </li>
-          <li>
-            <a href="#contact">Contacto</a>
-          </li>
-        </ul>
+    <header class="header">
+      <nav class="nav" id="header-nav">
+        <div class="container f-elements f-elements--header p-relative">
+          <a href="#hero">
+            <img
+              src="./assets/img/bryan.png"
+              alt="Bryan De La Cruz"
+              width="40"
+              class="nav__logo"
+            />
+          </a>
+          <a href="#header-nav" class="nav__icon nav__icon--menu">
+            <i class="bi bi-list"></i>
+          </a>
+          <a href="#header-close" class="nav__icon nav__icon--close">
+            <i class="bi bi-x-circle"></i>
+          </a>
+          <ul
+            class="list list--header f-elements f-elements--center f-elements--responsive gap-md"
+          >
+            <li>
+              <a href="#hero" class="list__link">Perfil</a>
+            </li>
+            <li>
+              <a href="#experiences" class="list__link">Experiencia</a>
+            </li>
+            <li>
+              <a href="#contact" class="list__link">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
-      <article id="hero">
-        <div>
-          <div>
+      <article
+        id="hero"
+        class="section section--hero f-elements f-elements--center"
+      >
+        <div
+          class="container f-elements f-elements--center f-elements--responsive"
+        >
+          <div class="flex-1">
             <header>
-              <h1>🖥️ Bryan De La Cruz 🖥️</h1>
+              <h1>Bryan De La Cruz</h1>
             </header>
             <section>
               <h2>Diseño y Desarrollo Web</h2>
@@ -47,14 +76,19 @@
             <footer>
               <div>
                 <a href="#" target="_blank" rel="noopener noreferrer">CV</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a
+                  href="https://github.com/Bryandlc654"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
               </div>
             </footer>
           </div>
-          <div>
+          <div class="flex-1 f-elements f-elements--center">
             <img
-              src="./assets/img/Bryan.png"
-              alt="Elliot Garamendi"
+              src="./assets/img/bryan.png"
+              alt="Bryan De la Cruz"
               width="256"
             />
             <figure>
@@ -86,7 +120,6 @@
           </div>
         </div>
       </article>
-      <hr />
       <section id="experiences">
         <div>
           <h2>👨‍💻 Experiencias 👨‍💻</h2>
@@ -144,7 +177,7 @@
             <tfoot>
               <tr>
                 <td colspan="5">
-                  <a href="" target="_blank" rel="noopener noreferrer"
+                  <a href="#" target="_blank" rel="noopener noreferrer"
                     >Ver más experiencias</a
                   >
                 </td>
@@ -153,7 +186,6 @@
           </table>
         </div>
       </section>
-      <hr />
       <section id="contact">
         <div>
           <h2>🤗 Contacto 🤗</h2>
@@ -163,13 +195,12 @@
           </form>
         </div>
       </section>
-      <hr />
     </main>
     <footer>
       <nav>
         <ul>
           <li>
-            <a href="https://www.youtube.com/@elliotgaramendi">
+            <a href="#">
               <img
                 src="./assets/img/logo-youtube.svg"
                 alt="YouTube"
@@ -179,7 +210,7 @@
             </a>
           </li>
           <li>
-            <a href="https://github.com/ElliotXLeo">
+            <a href="#">
               <img
                 src="./assets/img/logo-github.svg"
                 alt="GitHub"
@@ -189,7 +220,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/elliotgaramendi/">
+            <a href="#">
               <img
                 src="./assets/img/logo-linkedin.svg"
                 alt="LinkedIn"
@@ -199,7 +230,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/elliotgaramendi/">
+            <a href="#">
               <img
                 src="./assets/img/logo-instagram.svg"
                 alt="Instagram"
@@ -209,7 +240,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/elliotgaramendi">
+            <a href="#">
               <img
                 src="./assets/img/logo-facebook.svg"
                 alt="Facebook"
@@ -219,7 +250,7 @@
             </a>
           </li>
           <li>
-            <a href="https://elliotxleo.github.io/portafolio-web-elgs/">
+            <a href="#">
               <img
                 src="./assets/img/logo-internet.svg"
                 alt="Web"
@@ -231,8 +262,10 @@
         </ul>
         <h5>
           Copyright &copy;
-          <a href="#"> Bryan De La Cruz </a>
-          Todos los derechos reservados.
+          <a href="#">
+            Bryan De La Cruz
+          </a>
+          Todos los derechos reservados. 
         </h5>
       </nav>
     </footer>
