@@ -66,7 +66,7 @@ Uso de Flexbox CSS
 
 ![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana4.1.jpg)
 
-4.2 Uso de Grid CSS
+4.2 Uso de Grid y Animaciones CSS
 
 ![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana4.2.jpg)
 
