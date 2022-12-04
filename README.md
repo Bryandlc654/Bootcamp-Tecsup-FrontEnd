@@ -28,7 +28,7 @@
 
 
   <p align="center">
-    Respositorio de Tareas del Bootcamp Desarrollo Web Front - End, con Codigo Tecsup 2022
+    Respositorio de Tareas yProyectoes realizados en el Bootcamp Desarrollo Web Front - End, con Codigo Tecsup 2022
     <br />
     <a href="https://github.com/Bryandlc654/Bootcamp-Tecsup-FrontEnd/"><strong>Explorar Repositorio »</strong></a>
     <br />
@@ -41,10 +41,45 @@
 
 ## Semana 1:
 
-## Semana 1:
-## Semana 1:
-## Semana 1:
-## Semana 1:
+Maquetación y uso de Etiquetas Semánticas en HTML
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana1.jpg)
+
+## Semana 2:
+2.1 Tarjeta de Perfil Con HTML y CSS
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana2.jpg)
+
+2.2 Uso de variables CSS
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana2.2.jpg)
+
+## Semana 3:
+
+Uso de Flexbox CSS
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana3.jpg)
+
+## Semana 4:
+
+4.1 Efecto Neón CSS
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana4.1.jpg)
+
+4.2 Uso de Grid CSS
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana4.2.jpg)
+
+
+## Semana 5:
+
+5.1 Uso de Bootstrap
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana5.1.jpg)
+
+5.2 Uso de Sass 
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Semana5.2.jpg)
 
 <!-- CONTACT -->
 ## Contacto
