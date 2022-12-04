@@ -28,7 +28,7 @@
 
 
   <p align="center">
-    Respositorio de Tareas yProyectoes realizados en el Bootcamp Desarrollo Web Front - End, con Codigo Tecsup 2022
+    Respositorio de Tareas y Proyectoes realizados en el Bootcamp Desarrollo Web Front - End, con Codigo Tecsup 2022
     <br />
     <a href="https://github.com/Bryandlc654/Bootcamp-Tecsup-FrontEnd/"><strong>Explorar Repositorio »</strong></a>
     <br />
