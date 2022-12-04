@@ -37,7 +37,21 @@
     </p>
 </div>
 
-# Proyectos:
+# Retos:
+## Reto 1:
+
+Maquetación y uso de Etiquetas Semánticas en HTML
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Reto1.jpg)
+
+## Reto 2:
+
+Maquetación y uso de Etiquetas Semánticas en HTML, flexbox con CSS.
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Reto2.jpg)
+
+
+# Proyectos de Clase:
 
 ## Semana 1:
 
