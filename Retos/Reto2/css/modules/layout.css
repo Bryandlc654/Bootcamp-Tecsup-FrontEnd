@@ -1,0 +1,82 @@
+.section {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+}
+
+.section--hero {
+  background-image: url(https://templatemo.com/templates/templatemo_525_the_town/img/the-town-bg-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.height-screen{
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.height-screen-md{
+  box-sizing: border-box;
+  min-height: 50vh;
+}
+
+.container {
+  max-width: var(--max-width-container);
+  margin: 0 auto;
+  padding-left: var(--padding-container);
+  padding-right: var(--padding-container);
+}
+
+.f-elements {
+  display: flex;
+}
+
+.f-elements--header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f-elements--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.f-elements--responsive {
+  flex-direction: column;
+}
+
+.f-elements--responsive--section {
+  flex-direction: column;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.title--hero{
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.description--hero{
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.button__footer--hero{
+  background-color: var(--primary-text-color);
+  padding: 1rem 1.1rem;
+  border-radius: 50%;
+  color: var(--secondary-theme-color);
+}
+
+.button__footer--hero:hover{
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.568);
+}
+
+@media (min-width: 768px) {
+  .f-elements--responsive {
+    flex-direction: row;
+  }
+}
