@@ -50,6 +50,12 @@ Maquetación y uso de Etiquetas Semánticas en HTML, flexbox con CSS.
 
 ![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Reto2.jpg)
 
+## Reto 3:
+
+Maquetación y uso de Etiquetas Semánticas en HTML, flexbox y grid CSS.
+
+![alt text](https://bryandlc654.github.io/Bootcamp-Tecsup-FrontEnd/assets/Reto3.jpg)
+
 
 # Proyectos de Clase:
 
