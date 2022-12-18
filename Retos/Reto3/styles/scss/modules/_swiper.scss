@@ -1,0 +1,32 @@
+.product-slider{
+  padding:1rem;
+
+  &:first-child{
+    margin-bottom: 2rem;
+  }
+}
+
+.box{
+  background: #fff;
+  border-radius: .5rem;
+  text-align: center;
+  padding:1rem 0;
+  outline-offset: -1rem;
+  outline: .1rem solid rgba(0,0,0,.1);
+  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  transition: .2s linear;
+
+  &:hover{
+    outline-offset: 0rem;
+    outline:.1rem solid var(--secondary-text-color);
+  }
+  &--img{
+    width: 250px;
+  }
+  &--title{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+}
+
+

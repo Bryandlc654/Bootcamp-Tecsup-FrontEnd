@@ -1,0 +1,187 @@
+.cssbuttons-io-button {
+  background: rgb(255,36,73);
+  background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #a64d4d;
+  overflow: hidden;
+  position: relative;
+  height: 2em;
+  padding-right: 3.3em;
+  text-decoration: none;
+ }
+ 
+ .cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #b96552;
+  right: 0.3em;
+  transition: all 0.3s;
+ }
+ 
+ .cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+ }
+ 
+ .cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #ff6b08;
+ }
+ 
+ .cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+ }
+ 
+ .cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+ }
+
+ 
+
+ .icon-btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cdcdcd;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  font-family: inherit;
+}
+
+.add-btn:hover {
+  width: 120px;
+}
+
+.add-btn::before,
+.add-btn::after {
+  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  top: calc(50% - 2px);
+  background: rgb(255, 128, 0);
+}
+
+.add-btn::after {
+  right: 14px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.add-btn::before {
+  left: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.icon-btn:focus {
+  outline: none;
+}
+
+.btn-txt {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.add-btn:hover::before,
+.add-btn:hover::after {
+  width: 4px;
+  border-radius: 2px;
+}
+
+.add-btn:hover .btn-txt {
+  opacity: 1;
+}
+
+.add-icon::after,
+.add-icon::before {
+  transition: all 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 2px;
+  top: calc(50% - 10px);
+  background: rgb(255, 128, 0);
+  overflow: hidden;
+}
+
+.add-icon::before {
+  left: 22px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.add-icon::after {
+  right: 22px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.add-btn:hover .add-icon::before {
+  left: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+
+.add-btn:hover .add-icon::after {
+  right: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.input {
+  min-height: 50px;
+  width: 60%;
+  padding: 0 1rem;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  background-color: #fff;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1.5em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background: rgb(255,36,73);
+  background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.input:focus, .input:focus-visible {
+  outline: none;
+}

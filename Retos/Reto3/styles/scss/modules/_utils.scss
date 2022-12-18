@@ -1,0 +1,36 @@
+.p-relative {
+  position: relative;
+}
+
+.f-direction-column {
+  flex-direction: column;
+}
+
+.gap-sm {
+  gap: calc(var(--padding-section) * 0.5);
+}
+.padding-x{
+  padding-left:var(--padding-container) ;
+  padding-right:var(--padding-container);
+}
+.gap-md {
+  gap: var(--padding-section);
+}
+.gap-lg {
+  gap: 2rem;
+}
+.m-right{
+  margin-right: calc(var(--padding-section)*2 );
+}
+
+@media (min-width: 768px) {
+  .md\:f-direction-row {
+    flex-direction: row;
+  }
+  .m-right{
+    margin-right: 0;
+  }
+  .gap-lg {
+    gap: 5rem;
+  }
+}

@@ -1,0 +1,85 @@
+.card{
+  max-width: 320px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  
+  &__title{
+    line-height: 1;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 2rem;
+  }
+  &__subtitle{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  &__title--category{
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 0 1rem;
+  }
+  &__title--sale{
+    line-height: 1;
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 1rem;
+  }
+  &__text{
+    width: 100%;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    text-align: justify;
+    margin: 0 0 2rem;
+  }
+  &__footer{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  &__category{
+    background-color: #f8fbff;
+    min-height: 25rem;
+    padding: 1rem 0.5rem;
+    justify-content: center;
+    justify-items: center;
+  }
+  &__category--img{
+    margin: 0 auto;
+   width: 60%;
+   object-fit: cover;
+  }
+}
+.text__contador{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section__logos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 23px;
+    grid-row-gap: 20px;
+    margin-bottom: 2rem;
+}
+
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 512px;
+  }
+  .card__title{
+    font-size: 4rem;
+  }
+  .card__title--sale{
+    font-size: 3.5rem;
+  }
+  .card__footer{
+    display: flex;
+    justify-content: start;
+  }
+}

@@ -1,0 +1,7 @@
+@import './modules/variables.css';
+
+.body{
+  color: var(--primary-text-color);
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
